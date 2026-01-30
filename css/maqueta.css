@@ -1,36 +1,34 @@
-/* Alturas base para que se vean los bloques vacíos */
-.border-style {
+.estilo-borde {
     border: 1px solid #999;
     min-height: 60px;
     width: 100%;
 }
 
-/* Colores de tu esquema */
-.header-bg {
+.header {
     background-color: #e1ecf9;
     min-height: 80px;
 }
 
-.sidebar-bg {
+.sidebar {
     background-color: #6fb021;
-} /* El h-100 del HTML lo estira */
+}
 
-.main-bg {
+.main {
     background-color: #fff4d1;
     min-height: 70px;
 }
 
-.red-bg {
+.red {
     background-color: #f9d5d3;
     min-height: 50px;
 }
 
-.light-green-bg {
+.light-green {
     background-color: #e2efda;
     min-height: 100px;
 }
 
-.footer-bg {
+.footer {
     background-color: #21a1e1;
     min-height: 60px;
 }
