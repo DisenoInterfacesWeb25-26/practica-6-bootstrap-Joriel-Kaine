@@ -1,0 +1,40 @@
+.btn-boton {
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
+    display: block;
+}
+
+.btn-boton:hover {
+    background-color: #138496;
+    color: white;
+}
+
+.bg-light-gray {
+    background-color: #e9ecef;
+}
+
+.bg-light-blue {
+    background-color: #e3f2fd;
+    padding: 20px;
+}
+
+.footer-eniun {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.main-hero-img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
