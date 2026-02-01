@@ -64,7 +64,6 @@ hr {
 }
 
 
-
 /* Estilos para contacto.html */
 .breadcrumb-item a {
     color: #17a2b8;
@@ -103,4 +102,12 @@ hr {
     padding: 20px;
     border-radius: 20px;
     background-color: #e3f2fd;
+}
+
+
+
+/* Estilos para tabla.html */
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
 }

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla</title>
+    <!-- Enlace a la hoja de estilos CSS externa -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- Enlace a Bootstrap CSS desde CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="container mt-3" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Tabla</li>
+        </ol>
+    </nav>
+
+    <div class="container">
+        <h1 class="mb-4 text-center">Tabla de Ejemplo</h1>
+        <table class="table table-bordered border-secondary table-striped">
+            <thead>
+                <tr class="table-dark">
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Primero (1)</td>
+                    <td>Segundo (1)</td>
+                    <td>Tercero (1)</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Primero (2)</td>
+                    <td>Segundo (2)</td>
+                    <td>Tercero (2)</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Primero (3)</td>
+                    <td>Segundo (3)</td>
+                    <td>Tercero (3)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
